@@ -1,0 +1,30 @@
+<!--
+ * @Author: strick
+ * @LastEditors: strick
+ * @Date: 2022-10-19 10:22:52
+ * @LastEditTime: 2022-10-19 18:15:20
+ * @Description: 
+ * @FilePath: /web/webrtc/04/index.html
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>信令服务器</title>
+    <meta charset="UTF-8" />
+    <style>
+      video {
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+        border: 1px solid #000;
+      }
+    </style>
+  </head>
+  <body>
+    <video id="localVideo"></video>
+    <button id="btn">开播</button>
+    <video id="remoteVideo" muted="muted"></video>
+    <script src="./socket.io.js"></script>
+    <script src="./client.js"></script>
+  </body>
+</html>
