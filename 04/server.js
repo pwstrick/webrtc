@@ -2,12 +2,12 @@
  * @Author: strick
  * @LastEditors: strick
  * @Date: 2022-10-19 10:22:52
- * @LastEditTime: 2022-10-19 18:16:15
+ * @LastEditTime: 2022-10-20 10:39:00
  * @Description: 
  * @FilePath: /web/webrtc/04/server.js
  */
 /**
- * 专属通道
+ * 信令服务器
  */
 const http = require('http');
 const fs = require('fs');

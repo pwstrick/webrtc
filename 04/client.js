@@ -1,11 +1,3 @@
-/*
- * @Author: strick
- * @LastEditors: strick
- * @Date: 2022-10-19 15:59:28
- * @LastEditTime: 2022-10-19 18:24:19
- * @Description: 
- * @FilePath: /web/webrtc/04/client.js
- */
 const btn = document.getElementById('btn');   // 开播按钮
 const localVideo = document.getElementById('localVideo');
 const remoteVideo = document.getElementById('remoteVideo');
@@ -35,7 +27,7 @@ btn.addEventListener('click', function(e) {
     .then(desc => {
       // 配置本地描述
       pc.setLocalDescription(desc);
-      // send offer sdp
+      // 发送 Offer 类型的 SDP 信息
       sendMessage(desc);	
     });
     localVideo.play();
