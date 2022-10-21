@@ -1,11 +1,3 @@
-/*
- * @Author: strick
- * @LastEditors: strick
- * @Date: 2022-10-19 10:22:52
- * @LastEditTime: 2022-10-20 10:39:00
- * @Description: 
- * @FilePath: /web/webrtc/04/server.js
- */
 /**
  * 信令服务器
  */
