@@ -15,3 +15,11 @@ node server.js
 ```
 
 在两个不同的浏览器中访问 http://localhost:1234/ 就可以看到示例效果了，开发过程参考[此文](https://www.cnblogs.com/strick/p/16812888.html)。
+
+在运行 05 时，要先切换到 05 目录，然后运行命令。
+
+```
+node server.js
+```
+
+在浏览器中访问 http://localhost:1000/ 就可以看到示例效果了。
