@@ -24,6 +24,6 @@ node server.js
 
 在浏览器中访问 http://localhost:1000/ 就可以看到示例效果了。
 
-下面是一张关于 Web 多媒体的脑图，比较全，来源于另一个[Web Media Developer Guide](https://github.com/JackPu/web-media-developer-guide)。
+下面是一张关于 Web 多媒体的脑图，比较全，来源于[Web Media Developer Guide](https://github.com/JackPu/web-media-developer-guide)。
 
 ![脑图](https://github.com/pwstrick/webrtc/blob/main/images/web-media.png?raw=true)
